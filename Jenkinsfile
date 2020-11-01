@@ -3,7 +3,7 @@ pipeline {
     environment {
         PROJECT_ID = 'dev-hachiko-2020'
         CLUSTER_NAME = 'hachiko-cluster'
-        LOCATION = 'us-central1-c	'
+        LOCATION = 'us-central1-c'
         CREDENTIALS_ID = 'dev-hachiko-2020'
     }
     stages {
