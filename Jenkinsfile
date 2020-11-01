@@ -7,7 +7,7 @@ pipeline {
     stage('Deploy App') {
       steps {
         script {
-          kubernetesDeploy(configs: "hellowhale.yml", kubeconfigId: "hachiko-cluster")
+          kubernetesDeploy(configs: "examples/5-1-kuard-pod.yaml", kubeconfigId: "hachiko-cluster")
         }
       }
     }
